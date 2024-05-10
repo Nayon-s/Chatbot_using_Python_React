@@ -1,0 +1,115 @@
+.App {
+  text-align: center;
+}
+body{
+  font-family: 'Josefin Sans', sans-serif;
+background: linear-gradient(90deg, #0e0f0f, #4a5457, #515758, #0e0f0f);
+/* display: flex;
+justify-content: center;
+align-items: center; */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+ .card-body::-webkit-scrollbar {
+  display: none;
+  }
+
+.cards{
+  border: 5px solid #999999;
+  border-radius: 6%;
+  background-color: rgb(244, 249, 251);
+  
+}
+.msg_card_body {
+	overflow-y: auto;
+}
+.msg_cotainer {
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 10px;
+	border-radius: 25px;
+	background-color: #fbffc8;
+  font-size: large;
+	padding: 10px;
+  border: 1px solid black;
+  margin-right: 5px;
+  max-width: 50%;
+/* text-align: center; */
+	position: relative;
+}
+
+.msg_cotainer_send {
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-right: 10px;
+	border-radius: 25px;
+	background-color: rgb(220, 254, 210);
+	padding: 10px;
+	position: relative;
+  font-size: large;
+  border: 1px solid black;
+  margin-left: 5px;
+
+}
+
+    .text {
+  font-size: 5em;
+  letter-spacing: 10px;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 3s steps(25);
+  animation-duration: 5s;
+  animation-iteration-count: 3;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}    
+.profile{
+  width: 40px; 
+  height: 40px; 
+  margin-right: 10px; 
+  border-radius: 50%;
+  background-color: #eefbff;
+  padding: 5px;
+  border: 2px solid black;
+
+}
